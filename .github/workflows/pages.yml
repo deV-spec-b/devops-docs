@@ -1,12 +1,8 @@
-name: Publish docs
+﻿name: Publish docs
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
-      - '.github/workflows/docs.yml'
 
 permissions:
   contents: read
